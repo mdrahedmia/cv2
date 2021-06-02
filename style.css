@@ -1,0 +1,367 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		
+}
+.header{
+		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url("E2Prg_SUUAAtZwK.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+}
+.logo{
+		text-align: center;
+		padding: 20px 30px;
+		font-family: 'Pattaya', sans-serif;
+		color: #fff;
+		background: #ff1616;
+		width: fit-content;
+		margin: 0 auto;
+		border-top-left-radius: 97%;
+		border-top-right-radius: ;
+		border-bottom-right-radius: 97%;
+		letter-spacing: 5px;
+	
+}
+.menu{
+		width: 100%;
+		padding: 20px 40px;
+		display: none;
+		
+		
+}
+.menu a{
+		text-decoration: none;
+		color: #fff;
+		font-size:20px;
+		display: block;
+		text-align: center;
+		padding: 20px 10px;
+		border-bottom: 2px solid aqua;
+}
+.welcome-box{
+		color: red;
+
+}
+.welcome-text {
+		padding: 10px 50px;
+		font-weight: 400;
+		text-align: center;
+		font-family: monospace;
+		color: #4cc0e5;
+}
+
+.welcome-box .name-text{
+		text-align: center;
+		display: block;
+		color: white;
+		margin-top: 30px;
+}
+
+.welcome-box .name-text:hover{
+		font-weight: 300;
+		transition: 0.7s ease-in;
+		
+		
+}
+.welcome-box .name-text span{
+		color: #4cc0e5;
+		padding: 7px 5px;
+		font-family: 'pattaya';
+}
+
+.welcome-box .design-text{
+		text-align: center;
+	 margin-top: 10px;
+	 color: #fff;
+	 font-weight: 500;
+	 
+}
+
+.welcome-box .design-text:hover{
+		opacity: 0.4;
+		font-weight: 200;
+		transition: 0.5s;
+}
+
+.welcome-box p{
+		color: #fff;
+		text-align: center;
+		padding: 20px 10%;
+}
+
+/* about start from here*/
+
+.about {
+		margin-top: 50px;
+}
+
+.about-img img{
+		width: 300px;
+		height: 250px;
+		margin: 0 auto;
+		display: block;
+}
+.about h1{
+		padding: 20px 30px;
+		width: fit-content;
+		font-weight: 700;
+}
+.about h3{
+		padding: 5px 30px;
+		letter-spacing: 5px;
+}
+.about h3 span{
+		color: #ff55f1;
+}
+.about p{
+		padding: 10px 30px;
+		line-height: 30px;
+}
+.about .social{
+		text-align: center;
+}
+.about .social a{
+		background: #cbcbcb;
+		display: inline-block;
+		padding: 12px;
+		border-radius: 50%;
+		margin: 5px;
+}
+
+.about .social a img{
+		width: 25px;
+		height: 25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+.about .social a:hover{
+	
+		box-shadow: 0px 4px 6px 5px black;
+		transition: all 0.7s ease-in;
+}
+
+/* services section start from here*/
+
+.services h1{
+		font-weight: 500;
+		padding: 20px 10px;
+		text-align: center;
+}
+.services{
+		margin-top: 50px;
+		background: #ededed;
+		padding-bottom: 40px;
+}
+.services p{
+		padding: 5px 10%;
+		text-align: center;
+}
+.services-box{
+		width: 80%;
+		margin: 0 auto;
+		border: 1px solid black;
+		padding: 10px;
+		margin-top: 40px;
+}
+.services-box hr{
+		width: 20%;
+		margin: 0 auto;
+		border-bottom: 2px solid #e51313;
+		
+}
+.services div.services-box .h3-text{
+		font-weight: 200;
+		margin-top: 25px;
+		
+}
+
+.services .icon{
+		font-size: 60px;
+		margin-top: 20px;
+		text-align: center;
+		font-weight: 50;
+		color: #e52f00;
+		display: block;
+}
+
+.services-box hr:hover{
+		width: 30%;
+		transition: all 0.5s ease-in;
+}
+.services .h1-text{
+		font-size: 30px;
+		font-weight: 400;
+}
+/*freelancer start from here*/
+
+.freelancer{
+		width: 100%;
+		height: 300px;
+}
+.freelancer h1{
+		text-align: center;
+		padding-top: 50px;
+		font-family: 'Lora', serif;
+}
+.freelancer h1 span{
+		color: #e50068;
+}
+.freelancer h1 span:hover{
+		font-weight: 300;
+		transition: 0.7s ease-in;
+}
+.freelancer button{
+		margin: 0 auto;
+		width: 120px;
+		display: block;
+		padding: 15px 10px;
+		text-transform: uppercase;
+		background: #ff0034;
+		margin-top: 40px;
+		outline: none;
+		border: none;
+		border-radius: 5px;
+		color: #fff;
+		font-weight: bolder;
+		box-shadow: 0px 0px 8px 3px black;
+}
+.freelancer button:hover{
+		box-shadow: 0px 9px 8px black;
+		transition: 0.5s ease-in;
+		margin-top: 35px;
+}
+
+/*client section start from here*/
+.our-client {
+		background: #ededed;
+		padding: 20px 10px;
+}
+
+
+.our-client h1{
+		text-align: center;
+		padding-bottom: 20px;
+		font-weight: 400;
+}
+.our-client p{
+		padding: 0px 30px;
+}
+.client-box{
+		display: flex;
+		flex-direction: column;
+}
+.client-box .fal, .fab{
+		font-size: 40px;
+		text-align: center;
+		padding: 20px 30px;
+		color: #ff808a;
+		font-weight: 300;
+}
+.client-box img{
+		text-align: center;
+		width: 120px;
+		height: 120px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 50%;
+}
+.client-box p{
+		padding: 14px 30px;
+		padding-left: 60px;h
+}
+.client-box .name-tag{
+		text-align: right;
+}
+
+/*Services tool start from here*/
+
+.service-tool{
+		margin: 30px 20px;
+}
+.service-box{
+		text-align: center;
+}
+.service-box a{
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 5px 8px;
+		margin: 10px 10px;
+		display: inline-block;	
+		border-radius: 20px;
+		color: #000;
+}
+.service-box a:hover{
+		background: #ff2b5f;
+		color: #fff;
+		transition: all 0.7s ease-in;
+}
+/*blog start from here*/
+.blog{
+		padding: 20px 20px;
+		background: #ededed;
+}
+
+/* contact start from here*/
+
+.contact-us{
+		padding: 30px 20px;
+}
+.contact-us h1{
+		font-weight: 600;
+		text-align: center;
+		padding-bottom: 20px;
+}
+.contact-us p{
+		padding:5px 20px;
+}
+.contact-us .contact-box{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	 flex-direction: column;
+		margin: 20px auto;
+		width: 85%;
+}
+
+.contact-us .contact-box .fal{
+		font-size: 45px;
+		color: #ffa840;
+		padding: 10px 5px;
+}
+
+footer .footer-social{
+		display: flex;
+		font-size: 20px;
+		justify-content: center;
+		align-items: center;
+		
+}
+footer .footer-social .fab, .fal{
+		font-size: 20px;
+		color: grey;
+		margin: 5px 5px !important ;
+		padding: 10px 8px;
+}
+footer{
+  	background: #000000;
+  	padding-top: 15px;
+}
+footer p{
+		color: #fff;
+		padding: 10px 5px;
+		text-align: center;
+}
+
+
+
+
+
+
+
+
+
